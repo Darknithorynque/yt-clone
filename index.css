@@ -119,6 +119,10 @@ nav {
     visibility: hidden;
 }
 
+.side-bar::-webkit-scrollbar.visible {
+    background-color: transparent;
+}
+
 .container.shift {
     margin-inline-end: 17%;
 }
